@@ -1,0 +1,67 @@
+﻿@model TESTE.Models.ListarArquivosViewModel;
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Id:</td>
+            <td>Nome Arquivo:</td>
+            <td>Data de cadastro:</td>
+            <td>Excluir</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ArquivosFisicos)
+        {
+            <tr data-id="@item.id_registro_arquivo">
+                <td>@item.id_registro_arquivo</td>
+                <td>@item.nm_arquivo</td>
+                <td>@item.dt_cadastro</td>
+                <td>
+                    <input type="button" value="Excluir" class="btn-danger excluir">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+
+    $(".excluir").on("click", function () {
+
+        let id = $(this).closest("tr").data("id");
+
+        let linha = $(this);
+
+        if (confirm("Deseja realmente excluir") == true) {
+
+            $.post("ExcluirFisicamente/", { id: id }, function (retorno) {
+
+                if (retorno.flSucesso) {
+
+                    if (retorno.arquivoEncontrado) {
+
+                        console.log(this);
+
+                        linha.closest("tr").remove();
+
+                        alert("Arquivo excluído");
+
+                    } else {
+
+                        alert("Arquivo nao encontrado");
+                    }
+
+                } else {
+
+                    alert(retorno.mensagem);
+                }
+            });
+
+        } else {
+
+            alert("Selecionou não excluir");
+
+        }
+    });
+
+</script>

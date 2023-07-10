@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\TESTE.bundle.scp.css"
     },
     {
-      "Id": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\file.png",
-      "PackagePath": "staticwebassets\\arquivos\\teste\\file.png"
+      "Id": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\1650983760.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\teste\\1650983760.jpg"
+    },
+    {
+      "Id": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\Fundo.png",
+      "PackagePath": "staticwebassets\\arquivos\\teste\\Fundo.png"
     },
     {
       "Id": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\css\\site.css",

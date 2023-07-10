@@ -12,7 +12,7 @@ build_property.RootNamespace = TESTE
 build_property.ProjectDir = D:\CursoCSharp\TESTE\TESTE\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\CursoCSharp\TESTE\TESTE
 build_property._RazorSourceGeneratorDebug = 
 
@@ -22,6 +22,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/CursoCSharp/TESTE/TESTE/Views/Arquivo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWl2b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/TESTE/TESTE/Views/Arquivo/ListarArquivosTela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWl2b1xMaXN0YXJBcnF1aXZvc1RlbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/TESTE/TESTE/Views/Arquivo/ListarGravadosFisicamente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWl2b1xMaXN0YXJHcmF2YWRvc0Zpc2ljYW1lbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CursoCSharp/TESTE/TESTE/Views/Home/Index.cshtml]

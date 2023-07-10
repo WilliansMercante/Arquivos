@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJNFoSBQwwxMNodMxdEb/wkNGEKWjGHCExedFIl3fN4=",
+  "Hash": "g7q1cfOMsNLPYiUdcp47SrVHwRICpApJl3KsG2Yv+5M=",
   "Source": "TESTE",
   "BasePath": "_content/TESTE",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "D:\\CursoCSharp\\TESTE\\TESTE\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TESTE.bundle.scp.css"
     },
     {
-      "Identity": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\file.png",
+      "Identity": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\1650983760.jpg",
       "SourceId": "TESTE",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\",
       "BasePath": "_content/TESTE",
-      "RelativePath": "arquivos/teste/file.png",
+      "RelativePath": "arquivos/teste/1650983760.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\arquivos\\teste\\file.png"
+      "OriginalItemSpec": "wwwroot\\arquivos\\teste\\1650983760.jpg"
+    },
+    {
+      "Identity": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\arquivos\\teste\\Fundo.png",
+      "SourceId": "TESTE",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\",
+      "BasePath": "_content/TESTE",
+      "RelativePath": "arquivos/teste/Fundo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\arquivos\\teste\\Fundo.png"
     },
     {
       "Identity": "D:\\CursoCSharp\\TESTE\\TESTE\\wwwroot\\css\\site.css",
